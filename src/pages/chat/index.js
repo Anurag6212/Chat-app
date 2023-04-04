@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/chat.module.css";
 import { useEffect, useRef, useState } from "react";
-import io from "Socket.IO-client";
+import io from "socket.io-client";
 import { useRouter } from "next/router";
 
 const index = () => {
